@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+    <div class="container">
+        <img src="Images/logo.png" class="logo">
+        <div class="headertext">
+            <h1>The purpose is to<br>teach, and bring learning to everyone.</h1>
+            <span class="square"></span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur labore illo, nemo odio vero perspiciatis sequi, quia reprehenderit nesciunt porro.</p>
+            <button class="commonbtn">Read More</button>
+            <div class="line">
+              <span class="line1"></span> <br>
+              <span class="line2"></span> <br>
+              <span class="line3"></span> 
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a>
+            </li>
+            <li><a href="#">ABOUT US</a>
+            </li>
+            <li><a href="#">FEATURES</a>
+            </li>
+            <li><a href="#">COURSES</a>
+            </li>
+            <li><a href="#">OFFER</a>
+            </li>
+            <li><a href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    <img src="Images/menu.png" id="menuBtn">
+
+
+<!-- about -->
+<section id="about">
+    <div class="about-left-col">
+        <img src="Images/about.png" >
+    </div>
+    <div class="about-right-col">
+        <div class="aboutText">
+            <h1>About Us</h1>
+            <span class="square"></span>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis debitis illo ducimus velit possimus laudantium quasi quo porro minima totam aut labore enim impedit maiores, delectus similique ut consectetur distinctio odit perspiciatis veritatis architecto sit tenetur sint! Deleniti architecto, numquam eos molestias cum vel facilis!</p>
+            <div class="line">
+              <span class="line1"></span> <br>
+              <span class="line2"></span> <br>
+              <span class="line3"></span> 
+            </div>
+            
+            <h2>"Learning is not attained by chance, it must be sought for with ardor to with dilligence"</h2>
+            <h3>----Abigail Adams</h3>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+    <script>
+       var menuBtn = document.getElementById("menuBtn")
+       var sideNav = document.getElementById("sideNav")
+
+       sideNav.style.right="-250px";
+       menuBtn.onclick = function(){
+        if(sideNav.style.right=="-250px"){
+            sideNav.style.right="0";
+        }
+        else{
+            sideNav.style.right="-250px";
+        }
+       } 
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
